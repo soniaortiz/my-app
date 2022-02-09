@@ -36,3 +36,69 @@
     transform: rotate(360deg);
   }
 }
+
+
+.listItem {
+  background-color:white;
+  margin: 1%;
+  border: solid 1px gray;
+  /* height: 40px; */
+}
+
+.ulCommitList {
+  list-style-type: none;
+}
+
+.commitFeed {
+  background-color: #E8E8E8;
+  /* height: 100vh; */
+
+}
+
+.results {
+  /* margin-left: 50%; */
+  margin: auto;
+  width: 70%;
+}
+
+span{
+  display: inline-flex;
+  width: 28%;
+  text-align: justify;
+  margin-left: 3%;
+}
+
+.desciption {
+  text-align: justify;
+  margin: auto;
+  width: 70%;
+  padding-bottom: 1%;
+}
+
+.formContainer{
+  margin-bottom: 10%;
+  height: 300px;
+  align-items: flex-start;
+  margin: auto;
+  width: 50%;
+}
+
+.searchBtn{
+  margin-top: 30px;
+}
+
+.searchForm{
+  margin-top: 30%;
+  /* background-color: lawngreen; */
+  align-items: justify;
+}
+
+label{
+  display: inline-block;
+  /* float: left; */
+  /* clear: left; */
+  width: 250px;
+  text-align: left;
+  /* margin-right: 1%; */
+  margin-bottom: 5%;
+}
